@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+            h1{
+                color:blue;
+                background-color:yellow;
+            }
+            h2{
+                color:purple;
+            }
+            #Italy{
+                background-color:blue;
+            }
+            #Culture{
+                background-color:red;
+            }
+            .info{
+                background-color:green;
+            }
+            ol{background-color:red;
+            }
+                
+        </style>
+    </head>
+    <body>
+    
+        <h1>Travel to ....</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg" alt="Italy" width="350">
+        <h2 id="Italy"> Italy </h2>
+        <p class="info"> Italy is a country in Southern and Western Europe. Located in the middle of the Mediterranean Sea, it consists of a peninsula delimited by the Alps and surrounded by several islands; its territory largely coincides with the homonymous geographical region.</p>
+        <h2 id="Culture">Culture</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Venice_Carnival_%282010%29.jpg/220px-Venice_Carnival_%282010%29.jpg" alt="Italian Culture" width="250">
+        <p class="info">Italy is considered one of the birthplaces of western civilization and a cultural superpower.Divided by politics and geography for centuries until its eventual unification in 1861, Italy's culture has been shaped by a multitude of regional customs and local centres of power and patronage.</p>
+        <h2> Largest cities</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Canal_Grande_Chiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg/220px-Canal_Grande_Chiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg" alt="Italian-cities" width="250">
+        <ol>
+            <li> Rome</li>
+            <li> Milan</li>
+            <li> Naples</li>
+            <li> Turin</li>
+            <li> Palerno</li>
+        </ol>
+        
+    </body>
+</html>
