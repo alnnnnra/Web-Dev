@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+           .cake{
+               width:130px;
+               float:right;
+           } 
+           #invited{
+               color:blue;
+           }
+           .bd{
+             color:rgb(219, 51, 96);  
+           }
+           .info{
+              color:rgb(33, 59, 148);
+              font-family:monospace;
+              font-weight:bold;
+           }
+           .end{
+               color:white;
+              font-style:italic;
+           }
+           .celebrate{
+               color:yellow;
+           }
+           body{
+               background-color:rgb(209, 170, 209);
+           }
+        </style>
+    </head>
+    <body>
+        
+        <h1 id="invited">You're invited!</h1>
+        <img class="cake" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Birthday_cake%2C_Downpatrick%2C_April_2010_%2802%29.JPG">
+        <h2>To my <span class="bd">birthday party!</span></h2>
+        
+        <div class="info"><p>The details:</p>
+        <ul>
+            <li>Time: 19:00</li>
+            <li>Date:19 December</li>
+            <li>Place:My house</li>
+            
+        </ul></div>
+        <p class="end">Please join us to <span class="celebrate">celebrate!</span></p>
+    </body>
+</html>
